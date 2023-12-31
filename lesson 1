@@ -1,0 +1,23 @@
+<html>
+<body>
+<?php
+function testsum(){
+  static $n=1;
+  echo $n;
+  $n ++;
+}
+testsum();
+echo "<br>";
+testsum();
+echo "<br>";
+testsum();
+echo "<br>";
+?>
+</body>
+</html>
+/* output is 
+1
+2
+3
+4
+*/
