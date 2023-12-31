@@ -1,0 +1,20 @@
+<html>
+<body>
+<?php
+$yourname = "Samira";
+switch ($yourname) {
+  case "Samira";
+  echo "Hello Samira";
+  break;
+  case "Sara";
+  echo "Hell Sara!";
+  break;
+  case "Sahar";
+  echo "hello Sahar!";
+  break;
+  default;
+  echo "hello everyone";
+}
+?>
+</body>
+</html>
