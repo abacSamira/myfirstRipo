@@ -1,0 +1,13 @@
+<html>
+<body>
+<?php
+$t = date("g")
+if ($t < "12" && $t>= "1"){
+  echo "Good Morning!";
+}
+else {
+  echo "have a good Night!";
+}
+?>
+</body>
+</html>
