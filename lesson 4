@@ -1,0 +1,18 @@
+<html>
+<body>
+<?php
+$t = date ("D");
+echo "<p> today is". $t;
+echo ", and will give the following message: </p>";
+
+if ($t == "sat"){
+  echo " Have a good saturday:;
+} elseif ($t =="sun") {
+  echo "Have a good Sunday!";
+}
+else {
+  echo "Have a good week!";
+}
+?>
+</body>
+</html>
